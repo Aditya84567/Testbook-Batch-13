@@ -317,6 +317,7 @@ table{
 .posts{
     width: 100%;
     background-color: white;
+    margin-top: 10px;
 }
 .dots{
     text-align: right;

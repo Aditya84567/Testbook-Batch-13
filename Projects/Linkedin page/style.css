@@ -103,12 +103,14 @@ background-color: rgb(237,243,248);
 .lside{
     width: 20%;
     height: fit-content;
-    background-color: white;
+    background-color: transparent;
     margin-top: 20px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
      text-align: center;
-     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
@@ -194,14 +196,18 @@ background-color: rgb(237,243,248);
 .hpart{
     width: 100%;
     height: fit-content;
+    background-color: white;
     border-bottom: 1px solid grey;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .bpart{
     margin-top: 10px;
     border-top: 1px solid grey;
     border-bottom: 1px solid rgb(249, 247, 247);
+    background-color: white;
     border-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -317,7 +323,8 @@ table{
 .posts{
     width: 100%;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 .dots{
     text-align: right;

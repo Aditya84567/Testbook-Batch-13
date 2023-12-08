@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Survey form</title>
+</head>
+<body>
+                                            <!-- container -->
+
+    <div class="container">
+                                          <!-- header section -->
+        <div class="header">
+            <div class="lside">
+               <table >
+                   <tr>
+                     <td rowspan="3">  <img src="./images/logo.png" width="60px" height="50px" alt="" style="margin-top: 10px;"></td>
+                     <td><p class="mf"> <a href="" style="color: grey;">A pen by freecodecamp.org <a href="https://codepen.io/login?type=follow"><button style="background-color: rgb(24, 242, 24); border: none; border-radius: 3px; margin-left: 5px;">+Follow</button> </a></p></a> 
+                     <h2 style="margin-left: -50px;"> FCC: Survey Form</h2>
+                   </td>
+                   </tr>
+                 </table>
+            </div>
+            <div class="rside">
+               <div class="love">
+                <a href="https://codepen.io/login?type=love"> <i class="material-symbols-outlined " id="lov">favorite</i></a>
+               </div>
+               <div class="scode">
+                <p>View Source Code</p>
+               </div>
+               <div class="sup">
+                  <a href="https://codepen.io/accounts/signup/user/free"><p>Sing Up</p></a>
+               </div>
+               <div class="login">
+               <a href="https://codepen.io/login"><p> Log In</p></a>
+               </div>
+            </div>
+       </div>
+                                        <!-- menu bar -->
+        <div class="threeline">
+            <i class="material-symbols-outlined" id="menu">menu</i>
+        </div>
+                                   <!-- about saction -->
+        <div class="about">
+              <h1>
+                freeCodeCamp Survey Form
+              </h1>
+             
+        </div>
+        <div class="desc">
+            <pre class="details">
+                Thank you for taking the time to help us for improve the platform
+            </pre>
+        </div>
+                                         <!-- form part starts here -->
+        <div class="form">
+              <div class="fbody">
+                <form action="">
+                                          <!-- name -->
+                <div class="name">
+                <label for="name">Name</label><br>
+                <input type="text" placeholder="Enter your name">
+            </div>
+                                        <!-- email -->
+            <div class="email">
+                <label for="Email">Email</label><br>
+                <input type="text" placeholder="Enter your Email">
+            </div>
+            <div class="Age">
+                                        <!-- age -->
+                <label for="Age">Age</label><span class="op"> (Optional)</span><br>
+                <input type="number" placeholder="Age">
+            </div>
+            <div class="describe">
+                                      <!-- dropdawn menu -->
+                <label for="desc">Which option best describe your current role?</label><br>
+                <select id="dropdown" required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="">Student</option>
+                    <option value="">Full Time Job</option>
+                    <option value="">Full Time Learner</option>
+                    <option value="">Prefer not to say</option>
+                    <option value="">Other</option>
+               </select>
+            </div>
+                                          <!-- radio btns -->
+            <div class="ccamp">
+                <label for="Age">Would you recommend freeCodeCamp to a friend?</label><br>
+               
+            </div>
+           <div style="line-height: 0;">
+           <table style="margin-left: 20px; text-align: center; color: white; margin-left: 10px;">
+            <tr>
+                <td>
+                    <input type="radio" name="cc" style="margin-left: 30px;">
+                </td>
+                <td  >
+                   <h3 style="margin-left: 30px;">Definitely</h3> 
+                </td>
+            </tr>
+           </table>
+           </div>
+           <div style="line-height: 0;">
+            <table style="margin-left: 20px; text-align: center; color: white; margin-left: 10px;">
+             <tr>
+                 <td>
+                     <input type="radio" name="cc" style="margin-left: 30px; ">
+                 </td>
+                 <td  >
+                    <h3 style="margin-left: 30px;">Maybe</h3> 
+                 </td>
+             </tr>
+            </table>
+            </div>
+            <div style="line-height: 0;">
+                <table style="margin-left: 20px; text-align: center; color: white; margin-left: 10px;">
+                 <tr>
+                     <td>
+                         <input type="radio" name="cc" style="margin-left: 30px; ">
+                     </td>
+                     <td  >
+                        <h3 style="margin-left: 30px;">Not Sure</h3> 
+                     </td>
+                 </tr>
+                </table>
+                </div>
+                                             <!-- another dropdawn -->
+                <div class="describe">
+                    <label for="desc">What is your favorite feature of freeCodeCamp?</label><br>
+                    <select id="dropdown"  required>
+                        <option disabled selected value>Select current role</option>
+                        <option value="">Challenges</option>
+                        <option value="">Projects</option>
+                        <option value="">Community</option>
+                        <option value="">Open Source</option>
+                   </select> 
+        </div>
+                                            <!-- checkboxes -->
+        <div class="checkboxes">
+            <label for="cbox">What would you like to see improved?  </label> <span class="op">(Check all that apply)</span><br>
+            
+        </div>
+        <div class="cbox">
+            <table style="margin-left: 45px; text-align: left;">
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Front-end Projects
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Back-end Projects
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Data Visualization
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Challenges
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Open Source Community
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Gitter help rooms
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Videos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        City Meetups
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Wiki
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Forum
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td id="spart">
+                        Additional Courses
+                    </td>
+                </tr>
+            </table>
+            </div> 
+                                      <!-- textarea -->
+            <div class="textarea">
+                <label for="Age">Any comments or suggestions?</label><br>
+               <textarea name="tarea" id="" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
+            </div>
+                                      <!-- submit btn -->
+            <div class="submitbtn">
+                <input type="submit" value="submit">
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

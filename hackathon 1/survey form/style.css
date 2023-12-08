@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+                                    /* body container */
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://shots.codepen.io/leen624/pen/mdLjbbz-512.jpg?version=1664907060);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    border-radius: 10px;
+   position: fixed;
+   overflow: scroll;
+
+}
+                                   /* head section */
+  
+.header{
+    width: 98.7%;
+    background-color: rgb(9, 6, 6);
+    height: 70px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.lside p h1{
+    color: white;
+    margin-top: -10px;
+    border-radius: 10px;
+   /* display: flex;
+    align-items: start;  */
+    text-align: left;
+}
+.lside table{
+    color: white;
+    margin-top: -10px;
+    line-height: 0;
+}
+.com{
+    margin-right: 70px;
+    font-size: 20px;
+}
+.fcc{
+    margin-left: 30px;
+}
+.rside
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+#lov{
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+}
+.love{
+    height: 70%;
+    width: 60px;
+    border-radius: 5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+button:hover{
+  width: 60px;
+}
+.love:hover{
+  background-color: lightslategray;
+}
+.scode{
+    height: 70%;
+    width: 200px;
+    border-radius: 5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+.scode:hover{
+  background-color: lightslategray;
+}
+                                      /* sing up button */
+.sup{
+    height: 70%;
+    width: 100px;
+    border-radius: 5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: rgb(73, 136, 11);
+    
+    
+}
+.sup a{
+  color: black;
+  text-decoration: none;
+}
+.sup:hover{
+  background-color: rgb(114, 144, 85) ;
+}
+                                           /* login button */
+.login{
+    height: 70%;
+    width: 100px;
+    border-radius: 5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.login a{
+    color: white;
+   text-decoration: none;
+}
+.login:hover{
+  background-color: lightslategray;
+}                     
+                                      /* menu bar */
+#menu{
+    color: green;
+    font-size: 60px;
+    margin-top: 70px;
+    position: fixed;
+    cursor: pointer;
+}                                      
+                                              /* body content */
+.about h1{
+   color: white;
+}
+.desc pre{
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, );
+    color: white;
+    font-size: 20px;
+    margin-right: 140px;
+    color: lightgray;
+    font-weight: 100;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    padding-top: 130px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+
+}      
+                                           /* form part */
+.form{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fbody{
+    width: 50%;
+    height: 100%;
+    background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(22, 22, 56, 0.7),
+      rgba(21, 21, 48, 0.5)
+    );
+    padding-top: 60px;
+    margin-top: 35px;
+}
+form {
+    background: var(--color-darkblue);
+    /* height: 49p; */
+      
+  }
+  .name{
+    width: 80%;
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  input{
+    border: none;
+    width: 98%;
+    height: 35px;
+    border-radius: 5px;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  .email{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  .op{
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  .Age{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  .describe{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+                                                /* dropdaun menu */
+  select{
+    border: none;
+    width: 102%;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: grey;
+  }
+  .ccamp{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }                
+                                             /* checkboxes */
+  .checkboxes{
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  #spart{
+    color: white;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-top: 8px;
+  }
+  .textarea{
+    width: 80%;
+    /* margin-top: 25px; */
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+  }
+  textarea{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .submitbtn{
+    width: 86%;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 22px;
+    color: white;
+   
+    margin-bottom: 70px;
+  }
+  .submitbtn input{
+    background-color: green;
+    height: 40px;
+    color: white;
+  }
